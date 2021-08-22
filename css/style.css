@@ -4,30 +4,30 @@
   box-sizing: border-box;
 }
 .awesome {
-  max-width: 1170px;
   margin: auto;
+  max-width: 1170px;
 }
 
 .awesome-container-headers {
-  height: 250px;
-  text-align: center;
   padding-top: 100px;
+  text-align: center;
+  height: 250px;
 }
 
 .awesome-container-header-one {
+  margin-bottom: 20px;
   font-family: 'Raleway';
   font-weight: 400;
   font-size: 36px;
   color: #212121;
-  margin-bottom: 20px;
 }
 
 .awesome-container-line {
+  margin: auto;
+  margin-bottom: 35px;
   width: 64px;
   height: 5px;
   border-bottom: 1px solid #d98943;
-  margin: auto;
-  margin-bottom: 35px;
 }
 
 .awesome-container-header-two {
@@ -37,8 +37,8 @@
   color: #86878b;
 }
 .awesome-container-main {
-  height: 345px;
   padding-top: 27px;
+  height: 345px;
 }
 .awesome-container-main-card {
   display: inline-block;
@@ -48,26 +48,26 @@
 
 .awesome-container-main-card-img {
   margin: 0 auto;
+  margin-bottom: 30px;
   width: 70px;
   height: 70px;
   border: 1px solid #d98943;
   border-radius: 50%;
-  margin-bottom: 30px;
 }
 
 .awesome-container-main-card-img-icon {
   margin-top: 20px;
 }
 .awesome-container-main-card-text {
-  width: 350px;
-  height: 60px;
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 14px;
+  height: 60px;
+  width: 350px;
 }
 .awesome-container-main-card-header {
+  margin-bottom: 16px;
   font-family: 'Open Sans';
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 16px;
 }
