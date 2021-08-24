@@ -1,11 +1,1 @@
-@import url(header.css);
-@import url(main.css);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.awesome {
-  margin: auto;
-  max-width: 1170px;
-}
+@import url(awesome.css);
