@@ -1,0 +1,35 @@
+.awesome-container-main {
+  padding-top: 27px;
+  height: 345px;
+}
+.awesome-container-main-card {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.awesome-container-main-card-img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d98943;
+  border-radius: 50%;
+}
+
+.awesome-container-main-card-img-icon {
+  margin-top: 20px;
+}
+.awesome-container-main-card-text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  height: 60px;
+  width: 350px;
+}
+.awesome-container-main-card-header {
+  margin-bottom: 16px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,28 @@
+.awesome-container-headers {
+  padding-top: 100px;
+  text-align: center;
+  height: 250px;
+}
+
+.awesome-container-header-one {
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 36px;
+  color: #212121;
+}
+
+.awesome-container-line {
+  margin: auto;
+  margin-bottom: 35px;
+  width: 64px;
+  height: 5px;
+  border-bottom: 1px solid #d98943;
+}
+
+.awesome-container-header-two {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+}
