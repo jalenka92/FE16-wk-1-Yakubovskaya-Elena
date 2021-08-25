@@ -7,18 +7,19 @@
   margin: auto;
   max-width: 1170px;
 }
-.awesome-container-headers {
+.container-headers {
   padding-top: 100px;
   text-align: center;
   height: 250px;
 }
 
-.awesome-container-header-one {
+.container-header-one {
   margin-bottom: 20px;
   font-family: 'Raleway';
   font-weight: 400;
   font-size: 36px;
   color: #212121;
+  text-transform: uppercase;
 }
 
 .line {
@@ -29,7 +30,7 @@
   border-bottom: 1px solid #d98943;
 }
 
-.awesome-container-header-two {
+.container-header-two {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -64,6 +65,7 @@
   font-size: 14px;
   height: 60px;
   width: 350px;
+  margin-bottom: 109px;
 }
 .awesome-container-main-card-header {
   margin-bottom: 16px;
