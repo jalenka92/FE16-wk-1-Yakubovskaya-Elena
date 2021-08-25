@@ -21,7 +21,7 @@
   color: #212121;
 }
 
-.awesome-container-line {
+.line {
   margin: auto;
   margin-bottom: 35px;
   width: 64px;
@@ -30,18 +30,19 @@
 }
 
 .awesome-container-header-two {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #86878b;
 }
 .awesome-container-main {
   padding-top: 27px;
-  height: 345px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .awesome-container-main-card {
-  display: inline-block;
-  width: 33%;
   text-align: center;
 }
 
@@ -58,7 +59,7 @@
   margin-top: 20px;
 }
 .awesome-container-main-card-text {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   height: 60px;
@@ -66,7 +67,7 @@
 }
 .awesome-container-main-card-header {
   margin-bottom: 16px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
