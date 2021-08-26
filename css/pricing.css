@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .pricing {
-  width: 1400px;
+  max-width: 1400px;
   margin: auto;
   background-color: #f5f5f5;
 }
@@ -28,7 +29,7 @@
   height: 100px;
   background-color: #333333;
   margin-bottom: 1px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 35px;
   font-weight: 700;
   color: #ffffff;
@@ -46,12 +47,12 @@
   padding-top: 17px;
 }
 .variant-cost {
+  padding-left: 112px;
+  padding-right: 113px;
   display: flex;
-  flex-direction: row;
-  padding-left: 113px;
-  padding-right: 112px;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .variant-cost-column {
   text-align: center;
@@ -67,4 +68,15 @@
   font-weight: 400;
   color: #86878b;
   padding-top: 10px;
+}
+.orange {
+  background-color: #d98943;
+  width: 340px;
+  height: 50px;
+  margin-bottom: 1px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 17px;
 }
