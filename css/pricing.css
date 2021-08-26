@@ -56,6 +56,7 @@
 }
 .variant-cost-column {
   text-align: center;
+  padding-bottom: 80px;
 }
 .space {
   list-style-type: none;
