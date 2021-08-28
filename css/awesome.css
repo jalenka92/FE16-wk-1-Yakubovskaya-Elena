@@ -1,11 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .awesome {
   margin: auto;
   max-width: 1400px;
+  border: 15px;
 }
 .container-headers {
   padding-top: 100px;

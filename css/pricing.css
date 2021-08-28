@@ -1,50 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .pricing {
   max-width: 1400px;
   margin: auto;
+  border: 15px;
   background-color: #f5f5f5;
 }
 .container-headers {
   padding-top: 80px;
   text-align: center;
-  height: 250px;
 }
 .variant-cost-column-header-title {
   width: 340px;
-  height: 50px;
   background-color: #333333;
   margin-bottom: 1px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
-  padding-top: 15px;
+  padding: 16px 9px;
 }
 .variant-cost-column-header-cost {
   width: 340px;
-  height: 100px;
   background-color: #333333;
   margin-bottom: 1px;
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
   font-weight: 700;
   color: #ffffff;
-  padding-top: 26px;
+  padding: 26px 33px;
 }
 .variant-cost-column-header-free {
   width: 340px;
-  height: 50px;
   background-color: #333333;
   margin-bottom: 1px;
   font-family: 'Open sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
-  padding-top: 17px;
+  padding: 17px 14px;
 }
 .variant-cost {
   padding-left: 112px;
@@ -61,7 +53,6 @@
 .space {
   list-style-type: none;
   width: 340px;
-  height: 40px;
   background-color: #ffffff;
   margin-bottom: 4px;
   font-family: 'Open sans', sans-serif;
@@ -69,15 +60,4 @@
   font-weight: 400;
   color: #86878b;
   padding-top: 10px;
-}
-.orange {
-  background-color: #d98943;
-  width: 340px;
-  height: 50px;
-  margin-bottom: 1px;
-  font-family: 'Open sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #ffffff;
-  padding-top: 17px;
 }
