@@ -1,5 +1,82 @@
-.customer {
+.customers {
   max-width: 1400px;
-  margin: auto;
+  margin: auto auto 119px;
   border: 15px;
+}
+
+.customers-item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.customers-item-saying {
+  display: block;
+}
+
+.customers-item-saying-wrapper {
+  text-align: center;
+}
+
+.customers-item-saying-wrapper-text {
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  width: 298px;
+  padding: 9px 22px 6px 23px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #86878b;
+  line-height: 19px;
+}
+
+.customers-item-saying-contact {
+  display: flex;
+  justify-content: space-around;
+  width: 298px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.customers-item-saying-contact-person {
+  display: flex;
+  flex-direction: column;
+}
+
+.customers-item-saying-contact-foto {
+  display: block;
+}
+
+.customers-item-saying-contact-name {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.customers-item-saying-contact-profession {
+  display: block;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #86878b;
+
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-bottom: 17px solid #e2e2e2;
+  transform: rotate(-45deg);
+  position: relative;
+  top: -24px;
+  left: 39px;
 }
