@@ -16,7 +16,7 @@
   font-size: 36px;
   color: #212121;
   text-transform: uppercase;
-  bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .container-header-one::after {
