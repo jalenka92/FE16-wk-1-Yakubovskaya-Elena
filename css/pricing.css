@@ -38,6 +38,10 @@
   color: #ffffff;
   padding: 17px 14px;
 }
+
+.variant-cost-column-header-free:hover {
+  background-color: #d98943;
+}
 .variant-cost {
   padding-left: 112px;
   padding-right: 113px;
@@ -59,5 +63,6 @@
   font-size: 14px;
   font-weight: 400;
   color: #86878b;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

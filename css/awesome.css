@@ -6,7 +6,7 @@
 .container-headers {
   padding-top: 100px;
   text-align: center;
-  height: 250px;
+  margin: 0px auto 68px auto;
 }
 
 .container-header-one {
@@ -16,14 +16,17 @@
   font-size: 36px;
   color: #212121;
   text-transform: uppercase;
+  bottom: 70px;
 }
 
-.line {
-  margin: auto;
-  margin-bottom: 35px;
+.container-header-one::after {
+  display: block;
   width: 64px;
-  height: 5px;
-  border-bottom: 1px solid #d98943;
+  content: '';
+  position: relative;
+  border: 1px solid #e72424;
+  left: 668px;
+  top: 34px;
 }
 
 .container-header-two {
