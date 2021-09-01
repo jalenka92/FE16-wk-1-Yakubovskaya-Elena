@@ -1,13 +1,19 @@
+.container {
+  background-image: url(../images/axure.png);
+
+  width: 1742px;
+  margin: 0 auto;
+  position: relative;
+}
 .axure {
   max-width: 1170px;
   margin: auto;
   border: 15px;
-  background-image: url(../images/axure.png);
-  background-size: cover;
   position: relative;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.55);
   text-align: center;
+  z-index: 1;
 }
 .axure-container-headers {
   position: relative;

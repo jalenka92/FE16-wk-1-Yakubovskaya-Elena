@@ -70,4 +70,5 @@
 .space:hover {
   background-color: #d98943;
   cursor: pointer;
+  color: #fff;
 }
