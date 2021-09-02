@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.header-logo {
+  padding-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.header-nav-menu {
+  margin: 25px 24px;
+  color: #ffffffb2;
+}
