@@ -1,0 +1,33 @@
+.navigation {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 110px;
+  border: 15px;
+}
+
+.navigation-logo {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.navigation-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.navigation-nav-menu {
+  margin-left: 48px;
+  color: #ffffffb2;
+}

@@ -1,6 +1,5 @@
 .container {
   background-image: url(../images/axure.png);
-
   width: 1742px;
   margin: 0 auto;
   position: relative;
@@ -13,7 +12,6 @@
   background-position: center;
   background-color: rgba(0, 0, 0, 0.55);
   text-align: center;
-  z-index: 1;
 }
 .axure-container-headers {
   position: relative;
@@ -51,7 +49,7 @@
   margin: 0 auto;
 }
 
-a {
+.axure-container-header-button {
   position: relative;
   text-align: center;
   font-family: 'Open Sans';
@@ -66,10 +64,7 @@ a {
   bottom: 38px;
 }
 
-a:link {
+.axure-container-header-button:link {
   background-color: transparent;
   text-decoration: none;
-}
-.mask {
-  background-color: rgba(0, 0, 0, 0.55);
 }
