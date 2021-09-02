@@ -1,0 +1,30 @@
+.icons {
+  max-width: 1170px;
+  position: relative;
+  background-color: black;
+  margin: 0px auto;
+}
+
+.icons-footer {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.icons-footer-th {
+  display: block;
+  font-size: 23px;
+  color: #ffffff80;
+  margin: 0px 12px 0px 12px;
+}
+.icons-footer-sentence {
+  color: #ffffff80;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 15px;
+}
