@@ -29,6 +29,13 @@
 }
 
 .navigation-nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.navigation-nav-menu-item {
   margin-left: 48px;
   color: #ffffffb2;
+  background-color: transparent;
+  text-decoration: none;
 }
