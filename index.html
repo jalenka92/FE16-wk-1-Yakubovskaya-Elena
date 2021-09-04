@@ -74,12 +74,12 @@
             Try Your <span class="free-color">FREE</span> Trial Today
           </p>
           <form class="header-container-two-form" action="#" method="POST">
-            <label class="header-label">Name</label>
-            <input class="item" type="text" />
-            <label class="header-label">Email</label>
-            <input class="item" type="email" />
-            <label class="header-label">Password</label>
-            <input class="item" type="password" />
+            <label for="header-name" class="header-label">Name</label>
+            <input id="header-name" class="item" type="text" />
+            <label for="header-email" class="header-label">Email</label>
+            <input id="header-email" class="item" type="email" />
+            <label for="header-password" class="header-label">Password</label>
+            <input id="header-password" class="item" type="password" />
             <input class="submit" type="submit" value="Get Started" />
           </form>
         </div>
@@ -317,26 +317,33 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </h3>
       </div>
-      <div class="contact-form">
-        <form class="contact-form-first" action="#" method="POST">
-          <label class="contact-form-first-label">Name</label>
-          <input class="contact-item" type="text" />
-          <label class="contact-form-first-label">Email</label>
-          <input class="contact-item" type="email" />
-          <label class="contact-form-first-label">Password</label>
-          <input class="contact-item" type="password" />
-        </form>
-        <form class="contact-form-second" action="#" method="POST">
-          <textarea
-            class="contact-form-second-message"
-            placeholder="Message"
-            name="Message"
-            cols="60"
-            rows="14"
-          ></textarea>
-        </form>
-      </div>
-      <button class="contact-button">Send Message</button>
+      <form class="contact-form" action="#" method="POST">
+        <div class="contact-form-flex">
+          <div class="contact-form-first">
+            <label for="contact-form-name">Name</label>
+            <input id="contact-form-name" class="contact-item" type="text" />
+            <label for="contact-form-email">Email</label>
+            <input id="contact-form-email" class="contact-item" type="email" />
+            <label for="contact-form-password">Password</label>
+            <input
+              id="contact-form-password"
+              class="contact-item"
+              type="password"
+            />
+          </div>
+          <div>
+            <textarea
+              class="contact-form-second-message"
+              placeholder="Message"
+              name="Message"
+              cols="60"
+              rows="16"
+            ></textarea>
+          </div>
+        </div>
+
+        <input class="contact-button" type="submit" value="Send Message" />
+      </form>
     </section>
     <footer class="icons">
       <nav class="icons-footer">

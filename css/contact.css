@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.contact-form {
+.contact-form-flex {
   display: flex;
   justify-content: space-around;
 }
@@ -11,9 +11,6 @@
 .contact-form-first {
   display: flex;
   flex-direction: column;
-}
-
-.contact-form-first-label {
   font-family: 'Open Sans';
   font-size: 14px;
   font-style: normal;
@@ -24,6 +21,7 @@
 }
 
 .contact-item {
+  margin-top: 32px;
   margin-bottom: 32px;
   border: 0;
   outline: none;
@@ -54,7 +52,7 @@
 }
 
 .contact-form-second-message:focus {
-  border-bottom: 3px solid #ec7979;
+  border: 3px solid #ec7979;
 }
 
 .contact-button {
