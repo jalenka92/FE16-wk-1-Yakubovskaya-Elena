@@ -1,5 +1,7 @@
 .navigation {
-  position: relative;
+  position: fixed;
+  left: 0;
+  right: 0;
   text-align: center;
   margin: 0 auto;
   max-width: 1170px;
@@ -8,6 +10,7 @@
   background-color: black;
   padding: 0 110px;
   border: 15px;
+  z-index: 999;
 }
 
 .navigation-logo {

@@ -57,7 +57,7 @@
   border-bottom: 3px solid #ec7979;
 }
 
-.contacy-button {
+.contact-button {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -72,4 +72,10 @@
   color: white;
   padding: 11px 32px;
   margin: 68px auto 44px;
+}
+
+.contact-button:hover {
+  background: rgba(236, 121, 121, 0.8);
+  cursor: pointer;
+  border-radius: 10px;
 }

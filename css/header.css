@@ -129,6 +129,7 @@
   text-align: center;
   margin-top: 50px;
   padding: 17px;
+  cursor: pointer;
 }
 .free-color {
   color: #ec7979;
