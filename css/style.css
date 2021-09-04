@@ -5,6 +5,7 @@
 @import url(footer.css);
 @import url(navigation.css);
 @import url(header.css);
+@import url(social.css);
 
 * {
   margin: 0;
