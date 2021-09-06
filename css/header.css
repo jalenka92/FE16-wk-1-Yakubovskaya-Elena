@@ -1,6 +1,6 @@
 .header {
   background-image: url(../images/header-background.png);
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   position: relative;
 }

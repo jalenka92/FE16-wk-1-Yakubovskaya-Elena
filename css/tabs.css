@@ -1,0 +1,88 @@
+.tabs {
+  max-width: 1170px;
+  border: 15px;
+  display: flex;
+  position: relative;
+  margin: 100px auto;
+}
+
+.tabs-buttons {
+  display: flex;
+  flex-direction: column;
+  margin: auto 118px;
+}
+
+.tabs-buttons-one,
+.tabs-buttons-two,
+.tabs-buttons-three {
+  display: block;
+  text-transform: uppercase;
+  padding: 45px 35px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.tabs-buttons-one:hover,
+.tabs-buttons-two:hover,
+.tabs-buttons-three:hover {
+  background-color: #ec7979;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  justify-content: space-around;
+}
+
+.tab-text-title {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.tab-text-item {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.tab-text-button {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #ec7979;
+  padding: 12px 27px;
+  color: #ffffff;
+  border: none;
+  width: 135px;
+  cursor: pointer;
+}
