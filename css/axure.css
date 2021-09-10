@@ -1,21 +1,22 @@
-.container {
+.axure {
   background-image: url(../images/axure.png);
-  width: 1742px;
   margin: 0 auto;
   position: relative;
 }
-.axure {
+.axure-container {
   max-width: 1170px;
   margin: auto;
   border: 15px;
   position: relative;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.55);
-  text-align: center;
+  padding: 30px auto;
+  align-items: center;
+  padding-bottom: 50px;
 }
+
 .axure-container-headers {
   position: relative;
-  text-align: center;
 }
 
 .axure-container-header-one {
@@ -30,13 +31,15 @@
 }
 
 .axure-container-header-two {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #fff;
-  margin-top: 80px;
-  padding-bottom: 100px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
   text-align: center;
+  color: #ffffffcc;
+  padding: 70px 100px;
 }
 
 .axure-container-header-one::after {
@@ -49,22 +52,19 @@
   margin: 0 auto;
 }
 
-.axure-container-header-button {
+.axure-container-button {
   position: relative;
   text-align: center;
+}
+.axure-container-button-link {
   font-family: 'Open Sans';
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
-  text-align: center;
   color: #fff;
   border: 1px solid #fff;
-  padding: 11px 26px 11px 26px;
-  margin: 0 auto;
-  bottom: 38px;
-}
-
-.axure-container-header-button:link {
+  padding: 11px 26px;
   background-color: transparent;
   text-decoration: none;
+  margin-bottom: 45px;
 }

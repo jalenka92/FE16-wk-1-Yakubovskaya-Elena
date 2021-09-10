@@ -6,6 +6,7 @@
 .contact-form-flex {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .contact-form-first {

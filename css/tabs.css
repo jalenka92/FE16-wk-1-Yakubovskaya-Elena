@@ -4,12 +4,13 @@
   display: flex;
   position: relative;
   margin: 100px auto;
+  flex-wrap: wrap;
 }
 
 .tabs-buttons {
   display: flex;
   flex-direction: column;
-  margin: auto 118px;
+  margin: auto 100px;
 }
 
 .tabs-buttons-one,
@@ -41,10 +42,8 @@
 }
 
 .tab-text {
-  display: flex;
-  flex-direction: column;
   margin-right: 50px;
-  justify-content: space-around;
+  max-width: 450px;
 }
 
 .tab-text-title {

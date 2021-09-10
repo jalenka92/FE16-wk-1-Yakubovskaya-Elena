@@ -11,16 +11,17 @@
   padding: 0 110px;
   border: 15px;
   z-index: 999;
+  flex-wrap: wrap;
 }
 
 .navigation-logo {
   margin-top: 20px;
   margin-bottom: 19px;
+  display: block;
 }
 
 .navigation-nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   color: white;
@@ -34,7 +35,7 @@
 .navigation-nav-menu {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 .navigation-nav-menu-item {
   display: inline-block;

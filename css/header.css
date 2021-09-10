@@ -1,18 +1,20 @@
 .header {
   background-image: url(../images/header-background.png);
   max-width: 1170px;
-  margin: 0 auto;
-  position: relative;
+  border: 15px;
+  margin: auto;
 }
 
 .header-mask {
-  background-color: #00000073;
-  margin: auto;
+  margin: 0 auto;
   max-width: 1170px;
   position: relative;
   display: flex;
   justify-content: space-around;
-  padding: 110px;
+  padding: 100px;
+  padding-bottom: 0px;
+  background-color: #00000073;
+  flex-wrap: wrap;
 }
 
 .header-container-one {
@@ -32,6 +34,7 @@
   text-align: left;
   color: #ffffff;
   margin-top: 32px;
+  display: block;
 }
 
 .header-container-one-title::after {
@@ -52,7 +55,6 @@
   text-align: left;
   color: #ffffffcc;
   margin-top: 71px;
-  margin-bottom: 50px;
 }
 
 .header-container-one-button {
@@ -61,22 +63,21 @@
   padding: 11px 26px 11px 26px;
   position: relative;
   text-align: center;
-  margin-bottom: 112px;
+  margin-bottom: 25px;
   font-family: 'Open Sans';
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
   margin-top: 50px;
-}
-
-.header-container-one-button:link {
+  margin-bottom: 50px;
   background-color: transparent;
-  text-decoration: none;
 }
 
 .header-container-two {
   background-color: white;
   border-radius: 8px;
+  margin: auto;
+  margin-bottom: 80px;
 }
 
 .header-container-two-title {
