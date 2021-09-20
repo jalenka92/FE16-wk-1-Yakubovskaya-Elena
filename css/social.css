@@ -54,3 +54,5 @@
   display: block;
   text-decoration: none;
 }
+@media (max-width: 320px) {
+}
