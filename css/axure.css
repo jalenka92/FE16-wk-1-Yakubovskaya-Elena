@@ -10,9 +10,8 @@
   position: relative;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.55);
-  padding: 30px auto;
+  padding: 30px auto 50px;
   align-items: center;
-  padding-bottom: 50px;
 }
 
 .axure-container-headers {
@@ -67,4 +66,13 @@
   background-color: transparent;
   text-decoration: none;
   margin-bottom: 45px;
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .axure-container-header-two {
+  }
+
+  .axure-container-button {
+  }
 }

@@ -78,3 +78,28 @@
   cursor: pointer;
   border-radius: 10px;
 }
+
+@media (max-width: 320px) {
+  .contact-item {
+    width: 250px;
+  }
+  .contact-form-second-message {
+    width: 250px;
+  }
+}
+@media (min-width: 321px) and (max-width: 768px) {
+  .contact-item {
+    width: 250px;
+  }
+  .contact-form-second-message {
+    width: 250px;
+  }
+}
+@media (min-width: 321px) and (max-width: 768px) {
+  .contact-form-first {
+    margin-right: 0 15px;
+  }
+  .contact-form-second-message {
+    margin-left: 0 15px;
+  }
+}

@@ -72,3 +72,33 @@
   cursor: pointer;
   color: #fff;
 }
+@media (max-width: 320px) {
+  .container-headers {
+    width: 100%;
+    padding: 25px 25px;
+    margin-bottom: 25px;
+  }
+  .pricing {
+    width: 100%;
+    margin: 0;
+  }
+  .variant-cost-column-header-title {
+    width: 290px;
+    margin: 0 15px;
+  }
+  .variant-cost-column-header-cost {
+    width: 290px;
+    margin: 0 15px;
+  }
+  .variant-cost-column-header-free {
+    width: 290px;
+    margin: 0 15px;
+  }
+  .space {
+    width: 290px;
+    margin: 0 15px;
+  }
+
+  @media (min-width: 321px) and (max-width: 768px) {
+  }
+}

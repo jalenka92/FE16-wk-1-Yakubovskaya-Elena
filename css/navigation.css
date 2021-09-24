@@ -49,9 +49,11 @@
   color: #ec7979;
   transform: scale(1.5);
 }
+
 @media (max-width: 320px) {
   .navigation {
     width: 100%;
+    position: relative;
     padding: 0px;
     margin: 0px;
     align-items: center;
@@ -62,31 +64,40 @@
     text-align: center;
   }
   .navigation-nav {
-    text-align: center;
     padding-bottom: 15px;
   }
+  .navigation-nav-menu {
+    justify-content: center;
+  }
   .navigation-nav-menu-item {
-    margin-right: 7px;
-    margin-left: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
     padding: 0;
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .navigation {
     width: 100%;
     position: relative;
     margin: 0;
+    padding: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
   .navigation-logo {
-    text-align: right;
+    text-align: center;
+  }
+  .navigation-nav {
+    padding-bottom: 15px;
   }
 
+  .navigation-nav-menu {
+    justify-content: center;
+  }
   .navigation-nav-menu-item {
     margin-right: 7px;
-    margin-left: 25px;
+    margin-left: 7px;
     padding: 0;
   }
 }

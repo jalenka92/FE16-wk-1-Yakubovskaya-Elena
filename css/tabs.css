@@ -85,3 +85,72 @@
   width: 135px;
   cursor: pointer;
 }
+
+@media (max-width: 320px) {
+  .tabs {
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .tabs-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .tab-text-button {
+    margin: 0;
+    flex-direction: row;
+  }
+  .tabs-buttons-one,
+  .tabs-buttons-two,
+  .tabs-buttons-three {
+    padding: 20px 15px;
+    margin: 15px;
+  }
+
+  .tab-text-title {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px;
+  }
+  .tab-text-item {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 30px;
+  }
+  .tab-text-button {
+    align-items: center;
+    margin: 0 92px;
+  }
+  .image {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .tabs {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .tabs-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .tabs-buttons-one,
+  .tabs-buttons-two,
+  .tabs-buttons-three {
+    padding: 25px 20px;
+    margin: 15px;
+  }
+}

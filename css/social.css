@@ -55,4 +55,50 @@
   text-decoration: none;
 }
 @media (max-width: 320px) {
+  .social {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+    display: inline-block;
+  }
+  .social-text {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .social-text-title {
+    text-align: center;
+  }
+  .social-text-lorem {
+    text-align: center;
+  }
+  .social-icons {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .social {
+    width: 100%;
+
+    padding: 10px;
+    display: inline-block;
+  }
+  .social-text {
+    text-align: center;
+    padding: 0;
+    margin: 0 30px;
+    padding-bottom: 10px;
+  }
+  .social-text-title {
+    text-align: center;
+  }
+  .social-text-lorem {
+    text-align: center;
+  }
+  .social-icons {
+    align-items: center;
+    justify-content: center;
+  }
 }

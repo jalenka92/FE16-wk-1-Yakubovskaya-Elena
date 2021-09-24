@@ -15,7 +15,7 @@
   display: block;
   font-size: 23px;
   color: #ffffff80;
-  margin: 0px 12px 0px 12px;
+  margin: 0px 12px;
 }
 .icons-footer-sentence {
   color: #ffffff80;
@@ -27,4 +27,10 @@
   letter-spacing: 0em;
   text-align: center;
   padding-bottom: 15px;
+}
+
+@media (max-width: 320px) {
+  .icons-footer-th {
+    margin: 0 7px;
+  }
 }
