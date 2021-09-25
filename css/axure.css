@@ -38,7 +38,8 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffffcc;
-  padding: 70px 100px;
+  /*padding: 70px 100px;*/
+  margin: 70px auto;
 }
 
 .axure-container-header-one::after {
@@ -71,8 +72,13 @@
 
 @media (max-width: 320px) {
   .axure-container-header-two {
+    margin: 70px auto;
+    padding: 0 20px;
   }
-
-  .axure-container-button {
+}
+@media (min-width: 321px) and (max-width: 768px) {
+  .axure-container-header-two {
+    margin: 70px auto;
+    padding: 0 20px;
   }
 }

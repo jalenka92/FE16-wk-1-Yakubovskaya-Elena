@@ -5,12 +5,13 @@
   position: relative;
   margin: 100px auto;
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 50px;
 }
 
 .tabs-buttons {
   display: flex;
   flex-direction: column;
-  margin: auto 100px;
 }
 
 .tabs-buttons-one,
@@ -94,6 +95,10 @@
     display: block;
   }
 
+  .tab-text {
+    margin-right: 0px;
+  }
+
   .tabs-buttons {
     display: flex;
     flex-direction: row;
@@ -114,17 +119,16 @@
 
   .tab-text-title {
     width: 100%;
+    margin: 0 auto;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 30px;
+    padding: 0 15px;
   }
   .tab-text-item {
     width: 100%;
+    margin-right: 0;
+    margin: 30px auto;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 30px 30px;
+    padding: 0 15px;
   }
   .tab-text-button {
     align-items: center;
@@ -140,17 +144,56 @@
     width: 100%;
     margin: 0;
     margin-top: 30px;
+    display: block;
   }
   .tabs-buttons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   .tabs-buttons-one,
   .tabs-buttons-two,
   .tabs-buttons-three {
-    padding: 25px 20px;
+    text-align: center;
+    padding: 30px 40px;
     margin: 15px;
+  }
+  .tab-text {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+  .tab-text-title {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .tab-text-item {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .tab-text-button {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .image {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image {
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .tabs {
+    padding: 0 25px;
   }
 }

@@ -191,6 +191,11 @@
     text-align: center;
   }
 
+  .header-label {
+    margin: 0 auto;
+    padding: 0;
+  }
+
   .header-mask {
     padding: 16px;
     margin: 0;
@@ -219,6 +224,6 @@
     padding-top: 10px;
   }
   .header-container-one-logo {
-    padding-top: 15px;
+    padding-top: 30px;
   }
 }
