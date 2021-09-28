@@ -112,3 +112,27 @@
     justify-content: space-around;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .navigation {
+    max-width: 1366px;
+  }
+
+  .navigation-nav-menu-item {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .navigation {
+    max-width: 1920px;
+  }
+
+  .navigation-nav-menu-item {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0;
+  }
+}

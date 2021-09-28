@@ -186,7 +186,7 @@
 
 @media (min-width: 321px) and (max-width: 768px) {
   .header {
-    width: 100%;
+    max-width: 768px;
     position: relative;
     text-align: center;
   }
@@ -225,5 +225,45 @@
   }
   .header-container-one-logo {
     padding-top: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    max-width: 1024px;
+  }
+  .header-mask {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .header {
+    max-width: 1366px;
+  }
+  .header-mask {
+    max-width: 1366px;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .header {
+    min-width: 1367px;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  .header-mask {
+    max-width: 1920px;
+    margin: 100 auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .header-container-two {
+    background-color: white;
+    border-radius: 8px;
+    margin: 0;
+    margin-bottom: 80px;
   }
 }

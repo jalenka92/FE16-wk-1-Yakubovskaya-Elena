@@ -105,14 +105,35 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .social {
+    max-width: 1024px;
     padding: 34px 100px 17px;
+    display: flex;
+    justify-content: space-between;
   }
   .social-icons-th {
     margin: auto 9px;
   }
 }
+
 @media (min-width: 1025px) and (max-width: 1366px) {
   .social {
-    padding: 34px 100px 17px;
+    max-width: 1366px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-icons-th {
+    margin: auto 9px;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .social {
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-icons-th {
+    margin: auto 20px;
   }
 }
