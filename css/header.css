@@ -249,7 +249,7 @@
 @media (min-width: 1367px) {
   .header {
     min-width: 1367px;
-    max-width: 1920px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .header-mask {
