@@ -50,6 +50,10 @@
   margin: auto 10px;
 }
 
+.social-icons-th:hover {
+  color: #ec7979;
+  transform: scale(1.2);
+}
 .social-icons-link {
   display: block;
   text-decoration: none;

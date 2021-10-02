@@ -2,6 +2,7 @@
   background-image: url(../images/axure.png);
   margin: 0 auto;
   position: relative;
+  background-size: cover;
 }
 .axure-container {
   max-width: 100%;
@@ -10,7 +11,7 @@
   position: relative;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.55);
-  padding: 30px auto 50px;
+  padding: 30px auto 100px;
   align-items: center;
 }
 
@@ -38,7 +39,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffffcc;
-  /*padding: 70px 100px;*/
+  padding: 70px 100px;
   margin: 70px auto;
 }
 
@@ -55,6 +56,7 @@
 .axure-container-button {
   position: relative;
   text-align: center;
+  padding-bottom: 25px;
 }
 .axure-container-button-link {
   font-family: 'Open Sans';
@@ -65,9 +67,17 @@
   border: 1px solid #fff;
   padding: 11px 26px;
   background-color: transparent;
-  text-decoration: none;
-  margin-bottom: 45px;
   cursor: pointer;
+  width: 130px;
+  text-decoration: none;
+  margin: 25px auto;
+  display: block;
+}
+.axure-container-button-link:hover {
+  box-shadow: 2px 3px 3px 2px #ec7979;
+}
+.contact-item {
+  padding-bottom: 21px;
 }
 
 @media (max-width: 320px) {

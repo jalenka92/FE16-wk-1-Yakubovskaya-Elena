@@ -14,9 +14,9 @@
   flex-direction: column;
 }
 
-.tabs-buttons-one,
-.tabs-buttons-two,
-.tabs-buttons-three {
+.tabs-link-one,
+.tabs-link-two,
+.tabs-link-three {
   display: block;
   text-transform: uppercase;
   padding: 45px 35px;
@@ -32,11 +32,12 @@
   margin-bottom: 10px;
   border-radius: 4px;
   white-space: nowrap;
+  text-decoration: none;
 }
 
-.tabs-buttons-one:hover,
-.tabs-buttons-two:hover,
-.tabs-buttons-three:hover {
+.tabs-link-one:hover,
+.tabs-link-two:hover,
+.tabs-link-three:hover {
   background-color: #ec7979;
   border: none;
   cursor: pointer;
@@ -71,7 +72,8 @@
   margin-bottom: 100px;
 }
 
-.tab-text-button {
+.tab-text-link {
+  display: block;
   font-family: 'Open Sans';
   font-size: 15px;
   font-style: normal;
@@ -83,8 +85,19 @@
   padding: 12px 27px;
   color: #ffffff;
   border: none;
+  outline: none;
   width: 135px;
   cursor: pointer;
+  text-decoration: none;
+}
+.tab-text-link:hover {
+  background: rgba(236, 121, 121, 0.8);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.tab-text-button:active {
+  padding: 0;
 }
 
 @media (max-width: 320px) {
@@ -109,13 +122,13 @@
     margin: 0;
   }
 
-  .tab-text-button {
-    margin: 0;
-    flex-direction: row;
+  .tab-text-link {
+    margin: 15px auto;
   }
-  .tabs-buttons-one,
-  .tabs-buttons-two,
-  .tabs-buttons-three {
+
+  .tabs-link-one,
+  .tabs-link-two,
+  .tabs-link-three {
     padding: 20px 15px;
   }
 
@@ -155,9 +168,9 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .tabs-buttons-one,
-  .tabs-buttons-two,
-  .tabs-buttons-three {
+  .tabs-link-one,
+  .tabs-link-two,
+  .tabs-link-three {
     text-align: center;
     padding: 30px 40px;
     margin: 15px;
@@ -180,7 +193,7 @@
     text-align: center;
     padding: 0 15px;
   }
-  .tab-text-button {
+  .tab-text-link {
     display: block;
     margin: 0 auto;
     align-items: center;

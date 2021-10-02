@@ -17,6 +17,12 @@
   color: #ffffff80;
   margin: 0px 12px;
 }
+
+.icons-footer-th:hover {
+  color: #ec7979;
+  transform: scale(1.2);
+}
+
 .icons-footer-sentence {
   color: #ffffff80;
   font-family: 'Open Sans';
