@@ -7,6 +7,7 @@
 }
 
 .header-mask {
+  border: 15px;
   margin: 0 auto;
   max-width: 1170px;
   position: relative;
@@ -251,10 +252,10 @@
 
 @media (min-width: 1025px) and (max-width: 1366px) {
   .header {
-    max-width: 1366px;
+    max-width: 100%;
   }
   .header-mask {
-    max-width: 1366px;
+    max-width: 100%;
   }
 }
 
