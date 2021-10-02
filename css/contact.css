@@ -33,6 +33,7 @@
 
 .contact-item:focus {
   border-bottom: 3px solid #ec7979;
+  margin-bottom: 30px;
 }
 
 .contact-form-second-message {
