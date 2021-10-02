@@ -117,6 +117,7 @@
 
 .item:focus {
   border-bottom: 3px solid #ec7979;
+  padding-bottom: 14px;
 }
 
 .header-label {
